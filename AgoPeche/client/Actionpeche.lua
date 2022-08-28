@@ -210,7 +210,7 @@ OpenReventeFish = function()
                         local name = v.name 
                         local label = v.label
                         local price = v.price 
-                        local Nombre = FishReInput("Combien voulez-vous en prend?", "", 3)
+                        local Nombre = FishReInput("Combien voulez-vous en prendre?", "", 3)
                         TriggerServerEvent("Peche:RevendeurDonne", name, label, price, tonumber(Nombre))
                     end
                 end)
